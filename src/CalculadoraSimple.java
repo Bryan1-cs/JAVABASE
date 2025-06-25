@@ -22,6 +22,15 @@ public class CalculadoraSimple {
         //multiplicacion
         int multiplicacion = a * b;
         System.out.println("Multiplicacion: " + multiplicacion);
+
+               //division
+        if (b!=0){
+            int divicion = a/b; 
+         System.out.println("la divicion entre "+a+" / "+b+" = "+divicion); 
+        } else {
+           System.out.println(" no se puede dividir entre 0 ");
+        }
+
         Scanner close;
 
 
